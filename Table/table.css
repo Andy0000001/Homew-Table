@@ -1,0 +1,99 @@
+
+table{
+    border-collapse: collapse;
+    width: 800px;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 30px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    
+    text-align: center;
+}
+
+tr :first-child {
+background-color: lightblue;
+}
+
+.table :nth-child(1n){
+    background-color: lightblue;
+    position: sticky;
+    top: 43px;
+}
+
+.table1 :nth-child(n+2) {
+background-color: gray;
+}
+
+.table2 :nth-child(n+2) {
+    background-color: gray;
+}
+
+.table3 :nth-child(n+2) {
+    background-color: gray;
+}
+
+.table4 :nth-child(n+2) {
+    background-color: gray;
+}
+
+.table5 :nth-child(n+2) {
+    background-color: gray;
+}
+
+.line1{
+    position: sticky;
+    left: 38px;
+}
+
+.line2{
+    position: sticky;
+    left: 38px;
+}
+
+.line22{
+    position: sticky;
+    left: 38px;
+}
+
+.line3{
+    position: sticky;
+    left: 38px;
+}
+
+.line4{
+    position: sticky;
+    left: 38px;
+}
+
+.line5{
+    position: sticky;
+    left: 38px;
+}
+
+.line6{
+    position: sticky;
+    left: 38px;
+}
+
+.line11{
+    position: sticky;
+    left: 38px;
+}
+
+.line7{
+    position: sticky;
+    left: 38px;
+}
+
+.line8{
+    position: sticky;
+    left: 38px;
+}
